@@ -21,11 +21,7 @@
 <git command="pull" />
 </target>
  
-<target name="vendors" description="Installing Symfony2 vendors">
-<exec executable="${basedir}/vendor">
-<arg value="install" />
-</exec>
-</target>
+
  
 <target name="cache" description="Cleanup cache">
 <delete includeemptydirs="true">
